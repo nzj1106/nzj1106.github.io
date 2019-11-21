@@ -112,8 +112,7 @@
 <meta property="og:description" content="解决 hexo 博客文章图片不显示的问题？ 1、设置站点配置文件  _config.yml中 post_asset_folder:truehexo 提供了一种更方便管理Asset的设定：post_asset_folder 设置为true后，在建立文件时，hexo会自动建立一个与文章同名的文件夹，您可以把与该文章相关的所有资源都放到哪个文件夹中。 2、安装插件：在hexo的目录下执行npm inst">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://nzj1106.github.io/2019/11/21/show-img/3-1.jpg">
-<meta property="og:image" content="https://nzj1106.github.io/2019/11/21/show-img/../articleImgs/03/3-3.jpg">
-<meta property="og:updated_time" content="2019-11-21T09:10:58.037Z">
+<meta property="og:updated_time" content="2019-11-21T09:30:39.632Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="show-img">
 <meta name="twitter:description" content="解决 hexo 博客文章图片不显示的问题？ 1、设置站点配置文件  _config.yml中 post_asset_folder:truehexo 提供了一种更方便管理Asset的设定：post_asset_folder 设置为true后，在建立文件时，hexo会自动建立一个与文章同名的文件夹，您可以把与该文章相关的所有资源都放到哪个文件夹中。 2、安装插件：在hexo的目录下执行npm inst">
@@ -346,7 +345,7 @@
                 
               
 
-              <time title="Post created: 2019-11-21 16:47:54 / Updated at: 17:10:58" itemprop="dateCreated datePublished" datetime="2019-11-21T16:47:54+08:00">2019-11-21</time>
+              <time title="Post created: 2019-11-21 16:47:54 / Updated at: 17:30:39" itemprop="dateCreated datePublished" datetime="2019-11-21T16:47:54+08:00">2019-11-21</time>
             
 
             
@@ -411,11 +410,15 @@
       
         <p>解决 hexo 博客文章图片不显示的问题？</p>
 <p>1、设置站点配置文件  _config.yml中 post_asset_folder:true<br>hexo 提供了一种更方便管理Asset的设定：post_asset_folder 设置为true后，在建立文件时，hexo会自动建立一个与文章同名的文件夹，<br>您可以把与该文章相关的所有资源都放到哪个文件夹中。</p>
-<p>2、安装插件：在hexo的目录下执行<br>npm install <a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">https://github.com/CodeFalling/hexo-asset-image</a> –save </p>
-<p>3、安装后用hexo 新建文章的时候回发现_posts目录下面会多出来一个和文章名字一样的文件夹。图片就可以放在文件夹下面。</p>
-<p>  <img src="//nzj1106.github.io/2019/11/21/show-img/3-1.jpg" alt="你想要输入的替代文字"><br><img src="//nzj1106.github.io/2019/11/21/show-img/../articleImgs/03/3-3.jpg" alt="图片"></p>
-<p>4、文章中插入图片方式</p>
-<p>  方法一：<br>  <table><tr><td bgcolor="#000"><font color="#fff"><br>  $ </font></td></tr></table></p>
+<p>2、安装插件：在hexo的目录下执行<br>npm install <a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">https://github.com/CodeFalling/hexo-asset-image</a> –save</p>
+<p>也有一些网站运行的如下命令<br>npm install hexo-asset-image –save </p>
+<p>3、在blog（hexo）目录下 Git Bash Here,运行 hexo n “博客名（即文章名）”来新建文章，<br>会发现_posts目录下面会多出来一个和文章名字一样的文件夹。</p>
+<p>4、将要上传的图片放在文件夹下，然后在博客中使用markdown的格式引入图片</p>
+<p>  <code>![你想要输入的替代文字](./show-img/3-1.jpg)</code></p>
+<p>5、这样就可以显示成功，测试下吧：<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p>测试此方法是否能成功（图片显示即成功）：</p>
+<p>   <img src="//nzj1106.github.io/2019/11/21/show-img/3-1.jpg" alt="你想要输入的替代文字"></p>
+
       
     </div>
 
