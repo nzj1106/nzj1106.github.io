@@ -300,6 +300,164 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://nzj1106.github.io/2019/11/26/git合并分支到master上/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="nzj">
+      <meta itemprop="description" content="学习生活">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="牛牛博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/11/26/git合并分支到master上/" class="post-title-link" itemprop="url">git合并分支到master上</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2019-11-26 16:11:14 / Updated at: 17:10:07" itemprop="dateCreated datePublished" datetime="2019-11-26T16:11:14+08:00">2019-11-26</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>假如我们现在在dev分支上，刚开发完项目，执行了下列命令</p>
+<p>git add .</p>
+<p>git commit -m “dev”</p>
+<p>git push -u origin dev</p>
+<p>那么如何把dev分支上的代码合并到master分支上呢？</p>
+<p>首先切换到master分支上</p>
+<p>git checkout master</p>
+<p>如果是多人协作开发的话，需要把远程master的代码pull 下来</p>
+<p>git pull origin master </p>
+<p>如果一个人开发就没有必要了，为了保险起见还是pull<br>然后我们把dev分支的代码合并到master上</p>
+<p>git merge dev </p>
+<p>然后查看状态</p>
+<p>git status</p>
+<p>   <img src="//nzj1106.github.io/2019/11/26/git合并分支到master上/git.jpg" alt="你想要输入的替代文字"></p>
+<p>上面意思是：你有12个commit，需要push到远程master上，执行下面命令即可</p>
+<p>git push origin master</p>
+<p>本篇文章到此结束</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://nzj1106.github.io/2019/11/21/show-img/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -1261,7 +1419,7 @@ INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
