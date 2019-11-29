@@ -104,24 +104,46 @@
 
 
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 欢迎光临[">
+  <meta name="description" content="基础篇循序渐进地介绍Git主要命令1、Git Commit             2、Git Branch                         3、Git Merge                4、Git Rbase">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://nzj1106.github.io/2018/12/24/hello-world/index.html">
+<meta property="og:title" content="GIT基础篇">
+<meta property="og:url" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/index.html">
 <meta property="og:site_name" content="牛牛博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 欢迎光临[">
+<meta property="og:description" content="基础篇循序渐进地介绍Git主要命令1、Git Commit             2、Git Branch                         3、Git Merge                4、Git Rbase">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-11-26T09:18:28.151Z">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/commit1.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/commit2.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/commit3.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/branch1.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/branch2.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/branch3.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/branch4.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/branch5.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/branch6.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/branch7.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/branch8.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/merge1.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/merge2.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/merge3.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/merge4.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/merge5.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/rebase1.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/rebase2.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/rebase3.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/rebase4.jpg">
+<meta property="og:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/rebase5.jpg">
+<meta property="og:updated_time" content="2019-11-29T02:53:31.806Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 欢迎光临[">
+<meta name="twitter:title" content="GIT基础篇">
+<meta name="twitter:description" content="基础篇循序渐进地介绍Git主要命令1、Git Commit             2、Git Branch                         3、Git Merge                4、Git Rbase">
+<meta name="twitter:image" content="https://nzj1106.github.io/2019/11/29/GIT基础篇/commit1.jpg">
 
 
 
 
 
 
-  <link rel="canonical" href="https://nzj1106.github.io/2018/12/24/hello-world/">
+  <link rel="canonical" href="https://nzj1106.github.io/2019/11/29/GIT基础篇/">
 
 
 
@@ -131,7 +153,7 @@
   };
 </script>
 
-  <title>Hello World | 牛牛博客</title>
+  <title>GIT基础篇 | 牛牛博客</title>
   
 
 
@@ -300,7 +322,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://nzj1106.github.io/2018/12/24/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://nzj1106.github.io/2019/11/29/GIT基础篇/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="nzj">
@@ -317,7 +339,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World
+          <h1 class="post-title" itemprop="name headline">GIT基础篇
 
               
             
@@ -343,28 +365,41 @@
                 
               
 
-              <time title="Post created: 2018-12-24 17:38:11" itemprop="dateCreated datePublished" datetime="2018-12-24T17:38:11+08:00">2018-12-24</time>
+              <time title="Post created: 2019-11-29 10:20:24 / Updated at: 10:53:31" itemprop="dateCreated datePublished" datetime="2019-11-29T10:20:24+08:00">2019-11-29</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Updated at: 2019-11-26 17:18:28" itemprop="dateModified" datetime="2019-11-26T17:18:28+08:00">2019-11-26</time>
               
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">in</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/Web技术/" itemprop="url" rel="index"><span itemprop="name">Web技术</span></a></span>
+
+                
+                
+                  . 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/Web技术/生活琐事/" itemprop="url" rel="index"><span itemprop="name">生活琐事</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -393,16 +428,10 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<p>欢迎光临[Hexo] (<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a>) !这是你的第一篇文章。查看<a href="https://hexo.io/docs/" target="_blank" rel="noopener">文档</a>了解更多信息。如果您在使用Hexo时遇到任何问题，您可以在[troubleshooting]上找到答案(<a href="https://hexo.io/docs/troubleshooting.html)，或者您可以在[GitHub](https://github.com/hexojs/hexo/issues)上问我。" target="_blank" rel="noopener">https://hexo.io/docs/troubleshooting.html)，或者您可以在[GitHub](https://github.com/hexojs/hexo/issues)上问我。</a></p>
-<h2 id="Quick-Start-快速启动"><a href="#Quick-Start-快速启动" class="headerlink" title="Quick Start  快速启动"></a>Quick Start  快速启动</h2><h3 id="Create-a-new-post-创建一个新的帖子"><a href="#Create-a-new-post-创建一个新的帖子" class="headerlink" title="Create a new post 创建一个新的帖子"></a>Create a new post 创建一个新的帖子</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server-运行服务器"><a href="#Run-server-运行服务器" class="headerlink" title="Run server 运行服务器"></a>Run server 运行服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files-生成静态文件"><a href="#Generate-static-files-生成静态文件" class="headerlink" title="Generate static files  生成静态文件"></a>Generate static files  生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites-部署到远程站点"><a href="#Deploy-to-remote-sites-部署到远程站点" class="headerlink" title="Deploy to remote sites 部署到远程站点"></a>Deploy to remote sites 部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h2 id="基础篇"><a href="#基础篇" class="headerlink" title="基础篇"></a>基础篇</h2><h3 id="循序渐进地介绍Git主要命令"><a href="#循序渐进地介绍Git主要命令" class="headerlink" title="循序渐进地介绍Git主要命令"></a>循序渐进地介绍Git主要命令</h3><h4 id="1、Git-Commit"><a href="#1、Git-Commit" class="headerlink" title="1、Git Commit"></a>1、Git Commit</h4><p>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/commit1.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/commit2.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/commit3.jpg" alt="你想要输入的替代文字">   </p>
+<h4 id="2、Git-Branch"><a href="#2、Git-Branch" class="headerlink" title="2、Git Branch"></a>2、Git Branch</h4><p>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/branch1.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/branch2.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/branch3.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/branch4.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/branch5.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/branch6.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/branch7.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/branch8.jpg" alt="你想要输入的替代文字"></p>
+<h4 id="3、Git-Merge"><a href="#3、Git-Merge" class="headerlink" title="3、Git Merge"></a>3、Git Merge</h4><p>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/merge1.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/merge2.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/merge3.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/merge4.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/merge5.jpg" alt="你想要输入的替代文字"></p>
+<h4 id="4、Git-Rbase"><a href="#4、Git-Rbase" class="headerlink" title="4、Git Rbase"></a>4、Git Rbase</h4><p>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/rebase1.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/rebase2.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/rebase3.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/rebase4.jpg" alt="你想要输入的替代文字"><br>   <img src="//nzj1106.github.io/2019/11/29/GIT基础篇/rebase5.jpg" alt="你想要输入的替代文字"></p>
 
       
     </div>
@@ -433,15 +462,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/11/26/git合并分支到master上/" rel="next" title="git合并分支到master上">
+                <i class="fa fa-chevron-left"></i> git合并分支到master上
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/12/24/demo/" rel="prev" title="demo">
-                demo <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -566,7 +595,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start-快速启动"><span class="nav-number">1.</span> <span class="nav-text">Quick Start  快速启动</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post-创建一个新的帖子"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post 创建一个新的帖子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server-运行服务器"><span class="nav-number">1.2.</span> <span class="nav-text">Run server 运行服务器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files-生成静态文件"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files  生成静态文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites-部署到远程站点"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites 部署到远程站点</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#基础篇"><span class="nav-number">1.</span> <span class="nav-text">基础篇</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#循序渐进地介绍Git主要命令"><span class="nav-number">1.1.</span> <span class="nav-text">循序渐进地介绍Git主要命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、Git-Commit"><span class="nav-number">1.1.1.</span> <span class="nav-text">1、Git Commit</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、Git-Branch"><span class="nav-number">1.1.2.</span> <span class="nav-text">2、Git Branch</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、Git-Merge"><span class="nav-number">1.1.3.</span> <span class="nav-text">3、Git Merge</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4、Git-Rbase"><span class="nav-number">1.1.4.</span> <span class="nav-text">4、Git Rbase</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
